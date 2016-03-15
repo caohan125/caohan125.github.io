@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+body{ position:absolute;width:100%; height:100%; top:0px;}
+.sim_body{width:100%; height:100%; background:_#666; overflow:hidden; background:url(../images/img0.jpg) no-repeat 0px -172px; background-size:cover; position:absolute; background-size:cover;}
+.besktop_bottom{height:47px; position:absolute; bottom:0px; width:100%; border-top:1px solid #224256; }
+/*开始菜单开关按钮*/
+.besktop_bottom .besktop_bottom_left{ height:46px; width:66px; background:url(../images/1_3.png) no-repeat 0px 0px; margin:0px 0px; border-top:1px solid #8cc2e2; position:absolute; z-index:5; }
+/*开始菜单*/
+.besktop_bottom .start_on{  position:absolute; bottom:48px; display:none; left:0px;  border-radius:8px 8px 0 0; border:1px solid #1d2328; border-bottom:none; z-index:100000; }
+.besktop_bottom .start_on .start_on_left_box{ border-radius:8px; position:absolute; top:6px; left:6px;  border:1px solid #737e88; width:317px; height:547px;}
+.besktop_bottom .besktop_bottom_back{ position:absolute; width:100%; height:100%; background:#175086; border-top:1px solid #8bc1e2; opacity:0.75; top:0px;}
+/*开始菜单左边*/
+.besktop_bottom .start_on .start_on_left_box .start_on_left{ border:1px solid #444a50; position:absolute; width:315px; height:545px; background:#FFF; border-radius:8px;}
+.besktop_bottom .start_on .start_on_left_box .start_on_left .start_on_left_bottom{ height:58px; position:absolute; bottom:0px; width:100%; background:url(../images/start_on_left_bottom.png) repeat-x 0px;border-radius:0 0 8px 8px;}
+.besktop_bottom .start_on .start_on_left_box .start_on_left .start_on_left_bottom .text{ margin:12px;}
+.besktop_bottom .start_on .start_on_left_box .start_on_left .start_on_left_bottom .text input{ height:33px; width:285px; color:#6d6d6d; font-size:14px; border:1px solid #8c8d8d; border-top:1px solid #3f4040; background:url(../images/start_on_left_bottom_text1.png) no-repeat 260px 9px #fff; }
+/*开始菜单右边*/
+.besktop_bottom .start_on .start_on_back{opacity:0.5;width:510px; height:560px;background:#333; border:1px solid #6991af; border-radius:6px 6px 0 0;}
+/*开始菜单右边关机开关*/
+.besktop_bottom .start_on .start_on_back_off{ width:144px; height:35px; background:url(../images/off1.png) no-repeat 0px 0px; position:absolute; bottom:18px; left:332px; opacity:0.8;}
+.besktop_bottom .start_on .start_on_back_off span{ line-height:35px; font-size:15px; width:84px; color:#fff; text-align:center; }
+.besktop_bottom .start_on .start_on_back_off b{ width:31px; height:35px;}
+/*图标*/
+.icon{ background:_#333; width:280px; margin-top:10px;}
+.icon li{ width:90px; height:83px; margin:5px 1px 42px 0px;}
+.icon li img{ margin-left:17px; }
+.icon_li_span{ position:absolute; width:88px; background:_#666; top:62px; left:50%; margin-left:-44px; font-size:14px; text-align:center; color:#fff; }
+/*古怪模式*/
+.weird{}
+.weird .settle{  position:absolute; width: 100px; height:100px; text-align:center; line-height:100px; font-size:16px; border-radius:50%; right:0px; z-index:1000}

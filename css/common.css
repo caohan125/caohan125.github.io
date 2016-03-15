@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding:0; margin:0;}
+a{text-decoration:none;}
+li{list-style:none;}
+.fl{float:left;display:inline;}
+.fr{float: right;display:inline;}
+.clearFix{zoom:1;}
+.clearFix:after{content:"";display:block;clear: both;}
+img{border:0;}
+textarea{resize:none;}
+input,select,textarea{outline:none;}
+li,img,input,select,textarea{vertical-align:top;}
+
+html{ overflow:hidden;}
+.zhuai{ border:1px solid #3399ff; position:absolute;}
+.oZhuai_back{ position:absolute; width:100%; height:100%; background:#3399ff; opacity:0.28; }
