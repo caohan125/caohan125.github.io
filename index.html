@@ -1,4 +1,4 @@
- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -10,7 +10,6 @@
 <!--<script src="js/jquery-1.7.2.js"></script>-->
 <script>
 $(function(){
-	
 	$('#start').hover(function(){
 		$('#start').css('background','url(images/1_4.png) no-repeat 0px 0px');
 	},function(){
@@ -82,6 +81,9 @@ window.onload=function(ev){
 					oZhuai.style.width=oEvt.clientX-oldX+'px';
 					oZhuai.style.height=oldY-oEvt.clientY+'px';
 					oZhuai.style.top=oEvt.clientY+'px';
+				}
+				if(oZhuai.offsetHeight<document.documentElement.clientHeight-48){
+					oZhuai.document.documentElement.clientHeight-48
 				}
 				for(var i=0;i<aLi.length;i++){
 					//if(aLi[i]==oDiv) continue;//放过自己

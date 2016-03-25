@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 body{ position:absolute;width:100%; height:100%; top:0px;}
-.sim_body{width:100%; height:100%; background:_#666; overflow:hidden; background:url(../images/img0.jpg) no-repeat 0px -172px; background-size:cover; position:absolute; background-size:cover;}
+.sim_body{width:100%; height:100%; background:_#666; overflow:hidden; background:url(../images/img0.jpg) no-repeat 0px -172px; background-size:cover; position:absolute; background-size:cover; min-width:1366px; min-height:800}
 .besktop_bottom{height:47px; position:absolute; bottom:0px; width:100%; border-top:1px solid #224256; }
 /*开始菜单开关按钮*/
 .besktop_bottom .besktop_bottom_left{ height:46px; width:66px; background:url(../images/1_3.png) no-repeat 0px 0px; margin:0px 0px; border-top:1px solid #8cc2e2; position:absolute; z-index:5; }
